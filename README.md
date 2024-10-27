@@ -38,7 +38,11 @@ python ASAP/preprocess.py --method mts
 
 **step 4.** inference with LLMs. This will produce `df_test_{model_name}_{method}.xlsx` under `ASAP/resource` folder.
 ```
-python ASAP/inference_llama.py --method mts --model_name  {llama-2-7b-chat | llama-2-13b-chat | Mistral-7B-Instruct-v0.2} --batch_size 8
+python ASAP/inference_llama.py --method mts --model_name llama-2-7b-chat --batch_size 8
+```
+or
+```
+python ASAP/inference_mistral.py --method mts --model_name Mistral-7B-Instruct-v0.2 --batch_size 8
 ```
 
 **step 5.** evaluate the scoring performance for the inference result produced by an LLM. This will print the QWKs for all prompts in the console.
@@ -62,7 +66,11 @@ python TOEFL11/preprocess.py --method mts
 
 **step 4.** inference with LLMs. This will produce `df_test_{model_name}_{method}.xlsx` under `TOEFL11/resource` folder.
 ```
-python TOEFL11/inference_llama.py --method mts --model_name {llama-2-7b-chat | llama-2-13b-chat | Mistral-7B-Instruct-v0.2} --batch_size 8
+python TOEFL11/inference_llama.py --method mts --model_name llama-2-7b-chat --batch_size 8
+```
+or
+```
+python TOEFL11/inference_mistral.py --method mts --model_name Mistral-7B-Instruct-v0.2 --batch_size 8
 ```
 
 **step 5.** evaluate the scoring performance for the inference result produced by an LLM. This will print the QWKs for all prompts in the console.
