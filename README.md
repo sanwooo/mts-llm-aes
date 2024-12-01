@@ -1,6 +1,5 @@
 <div align="center">
-<h1> Unleashing Large Language Models’ Proficiency <br>
-in Zero-shot Essay Scoring
+<h1> Unleashing Large Language Models’ Proficiency in Zero-shot Essay Scoring
 </center> <br> <center> </h1>
 
 <p align="center">
