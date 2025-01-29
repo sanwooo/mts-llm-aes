@@ -1,17 +1,9 @@
-<div align="center">
-<h1> Unleashing Large Language Models’ Proficiency in Zero-shot Essay Scoring
-</center> <br> <center> </h1>
+# Unleashing Large Language Models’ Proficiency in Zero-shot Essay Scoring
 
-<p align="center">
-Sanwoo Lee, Yida Cai, Desong Meng, Ziyang Wang, Yunfang Wu<sup>*</sup>
-<br>
-National Key Laboratory for Multimedia Information Processing, Peking University
-<br>
-<sup>*</sup> Corresponding author
-<br><br>
-EMNLP 2024 Findings <br>
-<br>
-</div>
+
+Sanwoo Lee, Yida Cai, Desong Meng, Ziyang Wang, Yunfang Wu (corresponding author) \
+National Key Laboratory for Multimedia Information Processing, Peking University \
+EMNLP 2024 Findings
 
 This repository contains code for paper "Unleashing Large Language Models’ Proficiency in Zero-shot Essay Scoring", EMNLP 2024 Findings.
 
